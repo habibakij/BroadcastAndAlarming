@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BroadcastTutorial</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Broadcast Tutorial</string>
+    <string name="notificationtitle">Broadcast Tutorial</string>
+    <string name="lbltitle">"Title : "</string>
+    <string name="lbltext">"Text : "</string>
+    <string name="BroadcastReceiver">Broadcast Receiver</string>
+    <string name="wifioff">WIFI OFF</string>
+    <string name="wifion">WIFI ON</string>
+</resources>

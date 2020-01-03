@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D8D4"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context="com.test.mahabubsayeed.testandroid.MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textOff="wifi off"
+        android:textOn="wifi on" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#000"/>
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="300sp"
+        android:layout_height="350sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:layout_marginTop="5sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
